@@ -817,6 +817,8 @@ function _runServer(argv) {
         {cyan ${baseUrl}}
     `));
   });
+      
+  return httpServer;
 }
 
 function runServer(options) {
